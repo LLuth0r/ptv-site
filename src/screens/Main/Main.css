@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&display=swap');
+
+body {
+	background-color: #f0f2f3;
+	font-family: 'Arima', cursive;
+}
+
+.home-paper {
+	height: 600px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero {
+	width: 100%;
+	max-width: 1800px;
+	height: 600px;
+	object-fit: cover;
+	position: absolute;
+	z-index: 0;
+}
+
+.hero-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.events {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.events-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: Title;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.announcements {
+    display: flex;
+}
+
+.caroline-div, .grant-div {
+    display: flex;
+    width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.caroline-text, .grant-text {
+    width: 50%;
+    line-height: 1.5;
+}
+
+.caroline-text p, h3 {
+    text-align: left;
+    align-self: center;
+    padding: 0 10px 0 15px;
+}
+
+.grant-text p {
+    text-align: right;
+    align-self: center;
+    padding: 0 10px 0 15px;
+}
+
+.caroline {
+    display: flex;
+    justify-self: center;
+    margin-bottom: 15px;
+}
+
+.caroline-text, .grant-text, .social-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+
+.caroline-src, .grant-src, .social-src {
+    height: 450px;
+    box-shadow: -4px 8px 15px;
+}
+
+.reminders {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divider {
+    padding-top: 35px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.pets {
+    margin-top: 15px;
+}
+
+.pets-list, .lamps, .mailbox, .mods {
+    text-align: left;
+}
+
+.mailbox {
+    margin-bottom: 25px;
+}
+
+.list-item {
+    font-size: 14px;
+}
+
+.contact {
+    width: 100%;
+    height: 525px;
+    margin: 4em 0 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    grid-column-start: 1;
+    margin: 0 2em;
+}

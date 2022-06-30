@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&display=swap');
+
+.navbar {
+	top: 0;
+	height: 75px;
+	width: 100%;
+	max-width: 1800px;
+	background-color: white;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	position: fixed;
+	z-index: 3;
+}
+
+.logo {
+	height: 85px;
+	width: auto;
+	font-family: 'Arima', cursive;
+	font-weight: 600;
+	font-size: 55px;
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 1em;
+}
+
+.logo a {
+	text-decoration: none;
+	color: black;
+	align-self: center;
+}
+
+.logo a:hover {
+	color: #6DBF68;
+	cursor: pointer;
+}
+
+.links {
+	grid-column-start: 2;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 85px;
+	width: 100%;
+	font-family: 'Arima', cursive;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.links a {
+	text-decoration: none;
+	color: black;
+}
+
+.links a:hover {
+	color: #6DBF68;
+	cursor: pointer;
+}
+
+.nav-events,
+.nav-reminders,
+.nav-contact {
+	margin: 0 2em;
+}
+
+/* Media queries */
+@media all and (max-width: 600px) and (min-width: 300px) {
+	.logo {
+		font-size: 26px;
+		margin: 0 0.5em;
+	}
+
+	.link {
+		margin: auto;
+	}
+
+	.nav-about,
+	.nav-projects,
+	.nav-contact {
+		font-size: 12px;
+	}
+
+	.nav-events,
+	.nav-reminders,
+	.nav-contact {
+		margin: 0 0.5em;
+	}
+}
+
+@media all and (max-width: 900px) and (min-width: 600px) {
+	.logo {
+		font-size: 44px;
+		margin: 0 0.5em;
+	}
+
+	.link {
+		margin: auto;
+	}
+
+	.nav-events,
+	.nav-reminders,
+	.nav-contact {
+		font-size: 16px;
+	}
+
+	.nav-events,
+	.nav-reminders,
+	.nav-contact {
+		margin: 0 0.5em;
+	}
+}
