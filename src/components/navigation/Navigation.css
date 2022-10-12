@@ -65,16 +65,22 @@
 /* Media queries */
 @media all and (max-width: 600px) and (min-width: 300px) {
 	.logo {
-		font-size: 26px;
-		margin: 0 0.5em;
+		font-size: 24px;
+		width: auto;
+		margin-left: .5em;
+	}
+
+	.logo-text {
+		font-size: 14px;
+		margin: 0;
 	}
 
 	.link {
 		margin: auto;
 	}
 
-	.nav-about,
-	.nav-projects,
+	.nav-events,
+	.nav-reminders,
 	.nav-contact {
 		font-size: 12px;
 	}
@@ -87,7 +93,7 @@
 }
 
 @media all and (max-width: 900px) and (min-width: 600px) {
-	.logo {
+	.logo-text {
 		font-size: 44px;
 		margin: 0 0.5em;
 	}
