@@ -31,8 +31,8 @@
 	align-self: center;
 }
 
-.logo a:hover {
-	color: #6DBF68;
+.logo a:hover, .links a:hover {
+	color: #ef5c3c;
 	cursor: pointer;
 }
 
@@ -51,11 +51,6 @@
 .links a {
 	text-decoration: none;
 	color: black;
-}
-
-.links a:hover {
-	color: #6DBF68;
-	cursor: pointer;
 }
 
 .nav-events,

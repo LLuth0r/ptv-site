@@ -1,0 +1,135 @@
+.announcements-2022 {
+    display: flex;
+}
+
+.caroline-div, .grant-div {
+    display: flex;
+    width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.caroline-text, .grant-text {
+    width: 50%;
+    line-height: 1.5;
+}
+
+.caroline-text p, h3 {
+    text-align: left;
+    align-self: center;
+    padding: 0 10px 0 15px;
+}
+
+.grant-text p {
+    text-align: right;
+    align-self: center;
+    padding: 0 10px 0 15px;
+}
+
+.caroline {
+    display: flex;
+    justify-self: center;
+    margin-bottom: 15px;
+}
+
+.caroline-text, .grant-text, .social-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+
+.caroline-src, .grant-src, .social-src {
+    height: 450px;
+    box-shadow: -4px 8px 15px;
+}
+
+/* Media queries */
+@media all and (max-width: 600px) and (min-width: 300px) {
+    
+    .announcements-2022 {
+		height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-between;
+		padding: 1em 0;
+		margin: 0 0;
+	}
+
+    .events-title {
+        margin-bottom: 10px;
+    }
+
+    .events-title h1 {
+        font-size: 22px;
+    }
+
+	.caroline-div, .grant-div, .social-div {
+		width: auto;
+        margin: 20px 0;
+	}
+
+    .caroline-text h3, .grant-text h3 {
+        font-size: 14px;
+        margin: 0;
+    }
+
+	.caroline-div p, .grant-div p, .social-div p {
+		font-size: 12px;
+        padding: 5px;
+        margin: 5px;
+	}
+
+	.caroline-src, .grant-src {
+		width: 125px;
+		height: auto;
+	}
+}
+
+@media all and (max-width: 1200px) and (min-width: 600px) {
+	    
+    .announcements-2022 {
+		height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-between;
+		padding: 1em 0;
+		margin: 0 0;
+	}
+
+    .events-title {
+        margin-bottom: 10px;
+    }
+
+    .events-title h1 {
+        font-size: 22px;
+    }
+
+	.caroline-div, .grant-div, .social-div {
+		width: auto;
+        margin: 20px 0;
+	}
+
+    .caroline-text h3, .grant-text h3 {
+        font-size: 14px;
+        margin: 0;
+    }
+
+	.caroline-div p, .grant-div p, .social-div p {
+		font-size: 12px;
+        padding: 5px;
+        margin: 5px;
+	}
+
+	.caroline-src, .grant-src {
+		width: 125px;
+		height: auto;
+	}
+
+}
