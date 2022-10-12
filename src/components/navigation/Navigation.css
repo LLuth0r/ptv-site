@@ -2,24 +2,26 @@
 
 .navbar {
 	top: 0;
-	height: 75px;
+	height: 100px;
 	width: 100%;
 	max-width: 1800px;
 	background-color: white;
 	display: grid;
 	grid-template-columns: 30% 70%;
+	grid-template-rows: 1fr 0.5fr;
 	position: fixed;
 	z-index: 3;
 }
 
 .logo {
-	height: 85px;
+	grid-row-start: 2;
 	width: auto;
 	font-family: 'Arima', cursive;
 	font-weight: 600;
 	font-size: 55px;
 	display: flex;
 	justify-content: flex-start;
+	align-self: flex-end;
 	margin-left: 1em;
 }
 
@@ -38,11 +40,11 @@
 	grid-column-start: 2;
 	display: flex;
 	justify-content: flex-end;
-	align-items: center;
-	height: 85px;
+	align-items: flex-end;
+	height: 75px;
 	width: 100%;
 	font-family: 'Arima', cursive;
-	font-size: 24px;
+	font-size: 26px;
 	font-weight: 600;
 }
 
@@ -62,8 +64,21 @@
 	margin: 0 2em;
 }
 
+.nav-date {
+	grid-row-start: 1;
+	grid-column-start: 2;
+	display: flex;
+	justify-content: flex-end;
+	align-self: flex-start;
+	margin-right: 3em;
+}
+
 /* Media queries */
 @media all and (max-width: 600px) and (min-width: 300px) {
+	.navbar {
+		height: 70px;
+	}
+
 	.logo {
 		font-size: 24px;
 		width: auto;
@@ -75,42 +90,56 @@
 		margin: 0;
 	}
 
-	.link {
+	.links {
 		margin: auto;
+		height: 35px;
 	}
 
 	.nav-events,
 	.nav-reminders,
-	.nav-contact {
-		font-size: 12px;
+	.nav-contact,
+	.nav-date {
+		font-size: 8px;
 	}
 
 	.nav-events,
 	.nav-reminders,
-	.nav-contact {
+	.nav-contact,
+	.nav-date {
 		margin: 0 0.5em;
 	}
 }
 
 @media all and (max-width: 900px) and (min-width: 600px) {
+	.logo {
+		font-size: 24px;
+		width: auto;
+		margin-left: .5em;
+	}
+	
 	.logo-text {
-		font-size: 44px;
+		font-size: 24px;
 		margin: 0 0.5em;
 	}
 
-	.link {
+	.links {
 		margin: auto;
+		display: flex;
+		flex-direction: column;
+		height: 75px;
 	}
 
 	.nav-events,
 	.nav-reminders,
-	.nav-contact {
-		font-size: 16px;
+	.nav-contact,
+	.nav-date {
+		font-size: 10px;
 	}
 
 	.nav-events,
 	.nav-reminders,
-	.nav-contact {
+	.nav-contact,
+	.nav-date {
 		margin: 0 0.5em;
 	}
 }

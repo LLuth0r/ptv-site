@@ -207,100 +207,79 @@ body {
         font-size: 12px;
 	}
 
-	.contact {
-		height: auto;
-		display: flex;
-		flex-direction: column;
-	}
-
 	.contactform {
 		width: auto;
 		margin: 0 0 2em 0;
 	}
 
-	.collaborate {
-		align-items: center;
-	}
-
-	.text h1, .contactform h1, .collaborate h1 {
-		font-size: 24px;
-		margin: .5em 0 0 0;
-		text-align: center;
-		
-	}
+    .contactform h1 {
+        font-size: 22px;
+    }
 
 }
 
 @media all and (max-width: 1200px) and (min-width: 600px) {
-	.developer, .engineer {
-		padding-top: 4em;
-	}
-	
-	.developer h1, .engineer h1 {
-		font-size: 22px;
-	}
-
-	.developer p, .engineer p {
-		font-size: 14px;
-	}
-	
-	.about {
+	.home-paper, .hero {
+        height: 300px;
+    }
+    
+    .hero-img {
+        height: 350px;
+        width: auto;
+    }
+    
+    .announcements {
 		height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: space-between;
-		padding: 2em 0;
-		margin: 2em 0;
+		padding: 1em 0;
+		margin: 0 0;
 	}
 
-	.text {
+    .events-title {
+        margin-bottom: 10px;
+    }
+
+    .events-title h1 {
+        font-size: 22px;
+    }
+
+	.caroline-div, .grant-div, .social-div {
 		width: auto;
+        margin: 20px 0;
 	}
 
-	.text h1 {
-		font-size: 22px;
-	}
+    .caroline-text h3, .grant-text h3 {
+        font-size: 14px;
+        margin: 0;
+    }
 
-	.text h3 {
-		font-size: 16px;
-	}
-
-	.text p {
+	.caroline-div p, .grant-div p, .social-div p {
 		font-size: 12px;
+        padding: 5px;
+        margin: 5px;
 	}
 
-	.family-pic {
-		width: 300px;
+	.caroline-src, .grant-src {
+		width: 125px;
 		height: auto;
 	}
 
-	.tech {
+	.reminders {
 		height: auto;
 		display: flex;
 		flex-direction: column;
 	}
 
-	.icons {
-		height: auto;
-		display: flex;
-		justify-content: center;
-		margin: 0 0 1.5em 0;
-	}
+    .reminders h1, .announcements h1 {
+        font-size: 22px;
+    }
 
-	.project-title, .tech-title {
-		margin: 1em auto 0 auto;
-		font-size: 24px;
-	}
-
-	.projects {
+	.pets-list {
 		margin: 0 auto;
-	}
-
-	.contact {
-		height: auto;
-		display: flex;
-		flex-direction: column;
+        font-size: 12px;
 	}
 
 	.contactform {
@@ -308,15 +287,8 @@ body {
 		margin: 0 0 2em 0;
 	}
 
-	.collaborate {
-		align-items: center;
-	}
-
-	.text h1, .contactform h1, .collaborate h1 {
-		font-size: 24px;
-		margin: .5em 0 0 0;
-		text-align: center;
-		
-	}
+    .contactform h1 {
+        font-size: 22px;
+    }
 
 }

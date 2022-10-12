@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll';
-
+import Clock from 'react-live-clock';
 
 
 
@@ -10,8 +10,12 @@ import { Link } from 'react-scroll';
 import './Navigation.css';
 
 export default function Navigation() {
+
   return (
     <div className='navbar'>
+            <div className='nav-date'>
+                <Clock format={'llll'} ticking={true} timezone={'US/Eastern'} />
+            </div>
             <div className='logo'>
             <Link to='home' duration={500} smooth={true} offset={-125}>
                 <div className='logo-text'>PTV Newsletter</div>
@@ -28,6 +32,7 @@ export default function Navigation() {
                     <div className='nav-contact'>Contact</div>
                 </Link>
             </div>
+
         </div>
   )
 }
