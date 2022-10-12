@@ -60,7 +60,8 @@
 
 .nav-events,
 .nav-reminders,
-.nav-contact {
+.nav-contact,
+.nav-archive {
 	margin: 0 2em;
 }
 
@@ -98,14 +99,16 @@
 	.nav-events,
 	.nav-reminders,
 	.nav-contact,
-	.nav-date {
+	.nav-date,
+	.nav-archive {
 		font-size: 8px;
 	}
 
 	.nav-events,
 	.nav-reminders,
 	.nav-contact,
-	.nav-date {
+	.nav-date,
+	.nav-archive {
 		margin: 0 0.5em;
 	}
 }
@@ -132,14 +135,16 @@
 	.nav-events,
 	.nav-reminders,
 	.nav-contact,
-	.nav-date {
+	.nav-date,
+	.nav-archive {
 		font-size: 10px;
 	}
 
 	.nav-events,
 	.nav-reminders,
 	.nav-contact,
-	.nav-date {
+	.nav-date,
+	.nav-archive {
 		margin: 0 0.5em;
 	}
 }

@@ -22,7 +22,7 @@ export default function Main() {
   return (
     <div className='home'>
       <Paper className='home-paper' elevation={10}>
-        <img src={PTVGolf} className='hero' />
+        <img src='https://w.wallhaven.cc/full/g7/wallhaven-g7zpkd.jpg' className='hero' />
       </Paper>
       <Paper elevation={3} className='events'>
         <div className='events-title'>
