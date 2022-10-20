@@ -10,40 +10,40 @@ import Paper from '@mui/material/Paper';
 import './Reminders.css';
 
 export default function Reminders() {
+
   return (
     <Paper className='reminders' elevation={3}>
         <h1>Reminders:</h1>
         <Divider className='divider' style={{ width: '80%' }}>Pets</Divider>
-        <Box className='pets' sx={{ width: '80%' }}>
-          <List className='pets-list'>
-            <ListItemText
-              primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F' }}
-              primary="Each owner shall be responsible for collection and disposition of all fecal matter deposited by any pet maintained by such Co-owner"
-            />
-            <Divider />
-            <ListItemText
-              primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F' }}
-              primary="No dog which barks and can be heard on any frequent or continuing basis shall be kept in any Unit or on the Common Elements"
-            />
-            <Divider />
-            <ListItemText
-              primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F' }}
-              primary="In the event of any violation, the Association may assess fines for such violation in accordance with the By-laws & Rules / Regulations"
-            />
-            <Divider />
-            <ListItemText
-              primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F' }}
+        <Box className='pets' sx={{ width: '80%', display: 'flex', justifyContent: 'center' }}>
+          <List className='pets-list'><ListItemText
+              primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F', textAlign: 'center', margin: 2 }}
               primary="Pets must be on a leash at all times"
             />
             <Divider />
             <ListItemText
-              primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F' }}
+              primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F', textAlign: 'center', margin: 2 }}
               primary="Be considerate of your neighbors"
+            />
+            <Divider />
+            <ListItemText
+              primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F', textAlign: 'center', margin: 2 }}
+              primary="Each owner shall be responsible for collection and disposition of all fecal matter deposited by any pet maintained by such Co-owner"
+            />
+            <Divider />
+            <ListItemText
+              primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F', textAlign: 'center', margin: 2 }}
+              primary="No dog which barks and can be heard on any frequent or continuing basis shall be kept in any Unit or on the Common Elements"
+            />
+            <Divider />
+            <ListItemText
+              primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F', textAlign: 'center', margin: 2 }}
+              primary="In the event of any violation, the Association may assess fines for such violation in accordance with the By-laws & Rules / Regulations"
             />
           </List>
         </Box>
         <Divider className='divider' style={{ width: '80%' }}>Lamp Posts</Divider>
-        <Box className='lights' sx={{ width: '80%' }}>
+        <Box className='lights' sx={{ width: '70%' }}>
           <List className='lamps'>
             <ListItemText
               primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F' }}
@@ -52,7 +52,7 @@ export default function Reminders() {
           </List>
         </Box>
         <Divider className='divider' style={{ width: '80%' }}>Mailboxes</Divider>
-        <Box className='mailbox' sx={{ width: '80%' }}>
+        <Box className='mailbox' sx={{ width: '70%' }}>
           <List className='mailbox'>
             <ListItemText
               primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F' }}
@@ -65,8 +65,8 @@ export default function Reminders() {
             />
           </List>
         </Box>
-        <Divider className='divider' style={{ width: '80%', margin: 'auto' }}>Exterior Alterations & Modifications</Divider>
-        <Box className='mailbox' sx={{ width: '80%' }}>
+        <Divider className='divider' style={{ width: '80%' }}>Exterior Alterations & Modifications</Divider>
+        <Box className='mailbox' sx={{ width: '70%' }}>
           <List className='mods'>
             <ListItemText
               primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F' }}
@@ -75,7 +75,7 @@ export default function Reminders() {
           </List>
         </Box>
         <Divider className='divider' style={{ width: '80%' }}>Trash Cans</Divider>
-        <Box className='mailbox' sx={{ width: '80%' }}>
+        <Box className='mailbox' sx={{ width: '70%' }}>
           <List>
             <ListItemText
               primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F' }}
