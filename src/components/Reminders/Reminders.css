@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&display=swap');
+
+.reminders {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divider {
+    padding-top: 35px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.pets {
+    margin-top: 15px;
+}
+
+.pets-list, .lamps, .mailbox, .mods {
+    text-align: left;
+}
+
+.mailbox {
+    margin-bottom: 25px;
+}
+
+.list-item {
+    font-size: 14px;
+}
+
+/* Media queries */
+@media all and (max-width: 600px) and (min-width: 300px) {
+	
+	.reminders {
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+
+    .reminders h1, .announcements h1 {
+        font-size: 22px;
+    }
+
+	.pets-list {
+		margin: 0 auto;
+        font-size: 12px;
+        width: 100%;
+	}
+}
+
+@media all and (max-width: 1200px) and (min-width: 600px) {
+	
+	.reminders {
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+
+    .reminders h1, .announcements h1 {
+        font-size: 22px;
+    }
+
+	.pets-list {
+		margin: 0 auto;
+        font-size: 12px;
+	}
+}
