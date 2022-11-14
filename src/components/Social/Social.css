@@ -73,6 +73,13 @@
     align-items: center;
 }
 
+.link {
+    text-decoration: none;
+    color: black;
+    font-style: bold;
+    font-size: 18px;
+}
+
 .announcement2-img {
     margin-right: 35px;
 }
@@ -85,8 +92,13 @@
 }
 
 
-.announcement1-src, .announcement2-src, .social-src {
+.announcement1-src, .social-src {
     height: 450px;
+    box-shadow: -4px 8px 15px;
+}
+
+.announcement2-src {
+    height: 800px;
     box-shadow: -4px 8px 15px;
 }
 

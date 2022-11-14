@@ -13,7 +13,8 @@ export default function Main() {
   return (
     <div className='home'>
       <Paper className='home-paper' elevation={10}>
-        <img src='https://w.wallhaven.cc/full/g7/wallhaven-g7zpkd.jpg' className='hero' />
+        <img src='https://images.unsplash.com/photo-1510194638421-92f54ce46444?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1535&q=80' 
+             className='hero' />
       </Paper>
       <Social />
       <Reminders />

@@ -65,7 +65,7 @@ export default function Reminders() {
             />
           </List>
         </Box>
-        <Divider className='divider' style={{ width: '80%' }}>Exterior Alterations & Modifications</Divider>
+        <Divider className='divider' style={{ width: '80%' }}>Exterior Modifications</Divider>
         <Box className='mailbox' sx={{ width: '70%' }}>
           <List className='mods'>
             <ListItemText

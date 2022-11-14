@@ -21,17 +21,15 @@ export default function Social() {
       <Box className="announcements">
         <div className="announcement1-div">
           <div className="announcement1-text">
-            <h3>Halloween 2022</h3>
+            <h3>Yard Waste Pickup</h3>
             <p>
-              Halloween is just around the corner! Reminder that if you are
-              passing out candy for our PTV Trick or Treaters, please leave your
-              porch light on. Trick or Treating is from 6 - 8pm on Monday,
-              October 31st. Don't forget the mulled cider for the parents too!
+              As temperatures continue to drop and leaves keep falling, yard waste pickup will continue through November 30th, 2022.
+              Make sure to bag your yard waste in biodegradable paper yard waste bags or bins marked for yard waste.  
             </p>
           </div>
           <div className="announcement1-img">
             <img
-              src="https://www.sunset.com/wp-content/uploads/trick-or-treat-towns-san-jose-getty-1019.jpg"
+              src="https://images.unsplash.com/photo-1453342664588-b702c83fc822?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1459&q=80"
               className="announcement1-src"
             />
           </div>
@@ -39,15 +37,16 @@ export default function Social() {
         <div className="announcement2-div">
           <div className="announcement2-img">
             <img
-              src="https://static01.nyt.com/images/2016/12/12/dining/12COOKING-CIDER1/12COOKING-CIDER1-master768.jpg?w=1280&q=75"
+              src="https://images.unsplash.com/photo-1573975440239-a99e720a09d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
               className="announcement2-src"
             />
           </div>
           <Card elevation={3} sx={{ maxWidth: 800, marginRight: 2, marginLeft: 2, marginTop: 5 }}>
             <CardContent>
               <Typography variant="h5" component="div">
-                Mulled Cider Recipe
+                Easy, No Fuss Thanksgiving Turkey
               </Typography>
+              <small><a class='link' href="https://tastesbetterfromscratch.com/easy-no-fuss-thanksgiving-turkey/">Original Link</a></small>
               <List className="announcement2">
                 <Divider className="divider" style={{ width: "100%" }}>
                   Ingredients
@@ -66,7 +65,8 @@ export default function Social() {
                     fontWeight: 400,
                     color: "#4F4F4F",
                   }}
-                  primary="1 &frac12; quarts unfiltered sweet cider"
+                  primary="1 10lb turkey, thawed"
+                  secondary="Allow at least 1 day of thawing to be safe"
                 />
                 <ListItemText
                   primaryTypographyProps={{
@@ -74,7 +74,7 @@ export default function Social() {
                     fontWeight: 400,
                     color: "#4F4F4F",
                   }}
-                  primary="12 allspice berries"
+                  primary="1 onion, peeled and quartered"
                 />
                 <ListItemText
                   primaryTypographyProps={{
@@ -82,7 +82,7 @@ export default function Social() {
                     fontWeight: 400,
                     color: "#4F4F4F",
                   }}
-                  primary="12 whole cloves"
+                  primary="1 lemon, quartered"
                 />
                 <ListItemText
                   primaryTypographyProps={{
@@ -90,7 +90,7 @@ export default function Social() {
                     fontWeight: 400,
                     color: "#4F4F4F",
                   }}
-                  primary="2 sticks cinnamon, borken into pieces"
+                  primary="1 apple, quartered"
                 />
                 <ListItemText
                   primaryTypographyProps={{
@@ -98,40 +98,148 @@ export default function Social() {
                     fontWeight: 400,
                     color: "#4F4F4F",
                   }}
-                  primary="6 tablespoons bourbon (optional)"
+                  primary=".75 ounce fresh rosemary"
+                />
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontSize: 16,
+                    fontWeight: 400,
+                    color: "#4F4F4F",
+                  }}
+                  primary=".75 ounce fresh thyme"
+                />
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontSize: 16,
+                    fontWeight: 400,
+                    color: "#4F4F4F",
+                  }}
+                  primary=".75 ounce fresh sage"
                 />
               </List>
-              <List>
+              <List sx={{textAlign: 'start', marginLeft: 3}}>
                 <Divider className="divider" style={{ width: "100%" }}>
                   Preparation
                 </Divider>
-                <ListItemText>Step 1</ListItemText>
                 <ListItemText
                   primaryTypographyProps={{
                     fontSize: 16,
                     fontWeight: 400,
                     color: "#4F4F4F",
+                    paddingBottom: 1,
+                    paddingTop: 1
                   }}
-                  primary="Place all ingredients but the bourbon in a saucepan and heat over medium heat until the mixture is just below a boil. 
-                    Cover, remove from the heat and let steep 5 minutes."
-                />
-                <Divider className="divider2" />
-                <ListItemText
-                  primaryTypographyProps={{
-                    fontSize: 16,
-                    fontWeight: 400,
-                    color: "#4F4F4F",
-                  }}
-                  primary="Step 2"
+                  primary="1. If turkey is frozen, thaw in fridge, 24 hours for every 5 pounds of turkey."
                 />
                 <ListItemText
                   primaryTypographyProps={{
                     fontSize: 16,
                     fontWeight: 400,
                     color: "#4F4F4F",
+                    paddingBottom: 1
                   }}
-                  primary="At that point, you will notice that the allspice and cloves have floated to the top; remove and discard them. Pour a tablespoon of bourbon, if desired, 
-                    into each of six mugs and pour the cider mixture over it. Spoon a few cinnamon pieces into each mug, and serve immediately."
+                  primary="2. Remove thawed turkey from the fridge 1 hour before roasting, to allow it to come up to room temperature."
+                />
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontSize: 16,
+                    fontWeight: 400,
+                    color: "#4F4F4F",
+                    paddingBottom: 1
+                  }}
+                  primary="3. Adjust your oven rack so turkey will sit in the center of the oven.  Preheat to 325 degrees."
+                />
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontSize: 16,
+                    fontWeight: 400,
+                    color: "#4F4F4F",
+                    paddingBottom: 1
+                  }}
+                  primary="4. Make the herb butter by combining room temperature butter, minced garlic, salt, pepper, one tablespoon fresh 
+                  chopped rosemary, one tablespoon fresh chopped thyme, and half a tablespoon of fresh chopped sage. (You’ll use the remaining 
+                    fresh herbs for stuffing inside the cavity of the turkey)"
+                />
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontSize: 16,
+                    fontWeight: 400,
+                    color: "#4F4F4F",
+                    paddingBottom: 1
+                  }}
+                  primary="5. Remove turkey from packaging and remove the neck and giblets from the inside the cavities of the bird. (Reserve them for gravy, if you want, or discard them). Pat the turkey very dry with paper towels."
+                />
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontSize: 16,
+                    fontWeight: 400,
+                    color: "#4F4F4F",
+                    paddingBottom: 1
+                  }}
+                  primary="6. Season the cavity of the turkey with salt and pepper. Stuff it with the quartered lemon, onion and apple and leftover herbs."
+                />
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontSize: 16,
+                    fontWeight: 400,
+                    color: "#4F4F4F",
+                    paddingBottom: 1
+                  }}
+                  primary="7. Use your fingers to loosen and lift the skin above the breasts (on the top of the turkey) and smooth a few tablespoons of the herb butter underneath."
+                />
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontSize: 16,
+                    fontWeight: 400,
+                    color: "#4F4F4F",
+                    paddingBottom: 1
+                  }}
+                  primary="8. Tuck the wings of the turkey underneath the turkey and set the turkey on a roasting rack inside a roasting pan*."
+                />
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontSize: 16,
+                    fontWeight: 400,
+                    color: "#4F4F4F",
+                    paddingBottom: 1
+                  }}
+                  primary="9. Microwave the remaining herb butter mixture for 30 seconds (it doesn’t need to be completely melted--just really softened). Use a basting brush to brush the remaining herb butter all over the outside of the turkey, legs and wings."
+                />
+                 <ListItemText
+                  primaryTypographyProps={{
+                    fontSize: 16,
+                    fontWeight: 400,
+                    color: "#4F4F4F",
+                    paddingBottom: 1
+                  }}
+                  primary="10. Roast at 325 degrees F for about 13-15 minutes per pound, or until internal temperature (inserted on middle of thigh and breast) reaches about 165 degrees."
+                />
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontSize: 16,
+                    fontWeight: 400,
+                    color: "#4F4F4F",
+                    paddingBottom: 1
+                  }}
+                  primary="11. (I remove the turkey from the oven once it reaches 160 degrees. Then, I tent it with foil, and let it rest on the counter. It will continue cooking under the foil, to reach 165 degrees F.)"
+                />
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontSize: 16,
+                    fontWeight: 400,
+                    color: "#4F4F4F",
+                    paddingBottom: 1
+                  }}
+                  primary="12. ***Check the turkey about halfway through cooking, and once the skin gets golden brown, cover the top of the turkey with tinfoil, to protect the breast meat from overcooking. Alternately, you could start cooking the turkey with it tented in foil, then during the last hour or so of cooking you can take the foil off to let the turkey brown."
+                />
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontSize: 16,
+                    fontWeight: 400,
+                    color: "#4F4F4F",
+                    paddingBottom: 1
+                  }}
+                  primary="13. Allow turkey to rest for 20-30 minutes before carving. https://tastesbetterfromscratch.com/how-to-carve-a-turkey/"
                 />
               </List>
             </CardContent>
