@@ -21,15 +21,15 @@ export default function Social() {
       <Box className="announcements">
         <div className="announcement1-div">
           <div className="announcement1-text">
-            <h3>Yard Waste Pickup</h3>
+            <h3>Friendly Reminder: Street Parking</h3>
             <p>
-              As temperatures continue to drop and leaves keep falling, yard waste pickup will continue through November 30th, 2022.
-              Make sure to bag your yard waste in biodegradable paper yard waste bags or bins marked for yard waste.  
+              Per PTV rules, overnight street parking is not allowed.  Please remember to be thoughtful of your neighbors and kindly move any vehicles
+              into your driveway for overnight parking.  
             </p>
           </div>
           <div className="announcement1-img">
             <img
-              src="https://images.unsplash.com/photo-1453342664588-b702c83fc822?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1459&q=80"
+              src="https://images.unsplash.com/photo-1534571308266-5d4eaaf708db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
               className="announcement1-src"
             />
           </div>
@@ -37,16 +37,16 @@ export default function Social() {
         <div className="announcement2-div">
           <div className="announcement2-img">
             <img
-              src="https://images.unsplash.com/photo-1573975440239-a99e720a09d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              src="https://sinfulnutrition.com/wp-content/uploads/2019/12/Easy-Peanut-Butter-Blossom-Cookies-Recipe.jpg"
               className="announcement2-src"
             />
           </div>
           <Card elevation={3} sx={{ maxWidth: 800, marginRight: 2, marginLeft: 2, marginTop: 5 }}>
             <CardContent>
               <Typography variant="h5" component="div">
-                Easy, No Fuss Thanksgiving Turkey
+                Peanut Butter Blossoms
               </Typography>
-              <small><a class='link' href="https://tastesbetterfromscratch.com/easy-no-fuss-thanksgiving-turkey/">Original Link</a></small>
+              <small><a class='link' href="https://www.foodnetwork.com/recipes/nancy-fuller/peanut-butter-blossoms-3415533">Original Link</a></small>
               <List className="announcement2">
                 <Divider className="divider" style={{ width: "100%" }}>
                   Ingredients
@@ -55,9 +55,10 @@ export default function Social() {
                   primaryTypographyProps={{
                     fontSize: 16,
                     fontWeight: 400,
+                    marginTop: 2,
                     color: "#4F4F4F",
                   }}
-                  primary="Yield: 6 Servings"
+                  primary="Yield: 4 to 5 Dozen Cookies"
                 />
                 <ListItemText
                   primaryTypographyProps={{
@@ -65,8 +66,7 @@ export default function Social() {
                     fontWeight: 400,
                     color: "#4F4F4F",
                   }}
-                  primary="1 10lb turkey, thawed"
-                  secondary="Allow at least 1 day of thawing to be safe"
+                  primary="2 3/4 cups all-purpose flour"
                 />
                 <ListItemText
                   primaryTypographyProps={{
@@ -74,7 +74,7 @@ export default function Social() {
                     fontWeight: 400,
                     color: "#4F4F4F",
                   }}
-                  primary="1 onion, peeled and quartered"
+                  primary="1 1/4 teaspoons baking soda"
                 />
                 <ListItemText
                   primaryTypographyProps={{
@@ -82,7 +82,7 @@ export default function Social() {
                     fontWeight: 400,
                     color: "#4F4F4F",
                   }}
-                  primary="1 lemon, quartered"
+                  primary="1/2 teaspoon fine salt"
                 />
                 <ListItemText
                   primaryTypographyProps={{
@@ -90,7 +90,7 @@ export default function Social() {
                     fontWeight: 400,
                     color: "#4F4F4F",
                   }}
-                  primary="1 apple, quartered"
+                  primary="1 cup smooth peanut butter (not natural)"
                 />
                 <ListItemText
                   primaryTypographyProps={{
@@ -98,7 +98,7 @@ export default function Social() {
                     fontWeight: 400,
                     color: "#4F4F4F",
                   }}
-                  primary=".75 ounce fresh rosemary"
+                  primary="12 tablespoons (1 1/2 sticks) unsalted butter, at room temp"
                 />
                 <ListItemText
                   primaryTypographyProps={{
@@ -106,7 +106,7 @@ export default function Social() {
                     fontWeight: 400,
                     color: "#4F4F4F",
                   }}
-                  primary=".75 ounce fresh thyme"
+                  primary="1/4 cup vegetable shortening"
                 />
                 <ListItemText
                   primaryTypographyProps={{
@@ -114,12 +114,52 @@ export default function Social() {
                     fontWeight: 400,
                     color: "#4F4F4F",
                   }}
-                  primary=".75 ounce fresh sage"
+                  primary="1 3/4 cups packed light brown sugar"
+                />
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontSize: 16,
+                    fontWeight: 400,
+                    color: "#4F4F4F",
+                  }}
+                  primary="2 large eggs"
+                />
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontSize: 16,
+                    fontWeight: 400,
+                    color: "#4F4F4F",
+                  }}
+                  primary="1 tablespoon vanilla extract"
+                />
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontSize: 16,
+                    fontWeight: 400,
+                    color: "#4F4F4F",
+                  }}
+                  primary="2 cups peanut butter chips"
+                />
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontSize: 16,
+                    fontWeight: 400,
+                    color: "#4F4F4F",
+                  }}
+                  primary="Your favorite jelly thinned with a splash of liqueur (optional)"
+                />
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontSize: 16,
+                    fontWeight: 400,
+                    color: "#4F4F4F",
+                  }}
+                  primary="48 to 60 chocolate kiss candies"
                 />
               </List>
               <List sx={{textAlign: 'start', marginLeft: 3}}>
                 <Divider className="divider" style={{ width: "100%" }}>
-                  Preparation
+                  Directions:
                 </Divider>
                 <ListItemText
                   primaryTypographyProps={{
@@ -129,7 +169,7 @@ export default function Social() {
                     paddingBottom: 1,
                     paddingTop: 1
                   }}
-                  primary="1. If turkey is frozen, thaw in fridge, 24 hours for every 5 pounds of turkey."
+                  primary="1. Adjust oven racks to the upper and lower thirds and preheat to 375 degrees F.  Coat 2 baking sheets with cooking spray."
                 />
                 <ListItemText
                   primaryTypographyProps={{
@@ -138,7 +178,7 @@ export default function Social() {
                     color: "#4F4F4F",
                     paddingBottom: 1
                   }}
-                  primary="2. Remove thawed turkey from the fridge 1 hour before roasting, to allow it to come up to room temperature."
+                  primary="2. Combine flour, baking soda and salt in a medium bowl.  Set aside."
                 />
                 <ListItemText
                   primaryTypographyProps={{
@@ -147,7 +187,9 @@ export default function Social() {
                     color: "#4F4F4F",
                     paddingBottom: 1
                   }}
-                  primary="3. Adjust your oven rack so turkey will sit in the center of the oven.  Preheat to 325 degrees."
+                  primary="3. Beat the peanut butter, butter and shortening in a large bowl with an electric mixer on medium high until smooth, about 1 minute.
+                  Add the brown sugar and continue to beat until light and fluffy, about 4 minutes.  Add the eggs and vanilla and continue to beat until incorporated.
+                  Add the flour mixture in two batches and beat on medium until incorporated.  Fold in the peanut butter chips."
                 />
                 <ListItemText
                   primaryTypographyProps={{
@@ -156,9 +198,8 @@ export default function Social() {
                     color: "#4F4F4F",
                     paddingBottom: 1
                   }}
-                  primary="4. Make the herb butter by combining room temperature butter, minced garlic, salt, pepper, one tablespoon fresh 
-                  chopped rosemary, one tablespoon fresh chopped thyme, and half a tablespoon of fresh chopped sage. (You’ll use the remaining 
-                    fresh herbs for stuffing inside the cavity of the turkey)"
+                  primary="4. Scoop out level tablespoons of dough, roll into balls and space about 2 inches apart on the prepared baking 
+                  sheets. (You will need to bake the cookies in batches; allow the baking sheets to cool in between batches.)"
                 />
                 <ListItemText
                   primaryTypographyProps={{
@@ -167,7 +208,8 @@ export default function Social() {
                     color: "#4F4F4F",
                     paddingBottom: 1
                   }}
-                  primary="5. Remove turkey from packaging and remove the neck and giblets from the inside the cavities of the bird. (Reserve them for gravy, if you want, or discard them). Pat the turkey very dry with paper towels."
+                  primary="5. Bake until the bottoms and edges of the cookies are golden brown but the middles are still soft, about 10 minutes. (The cookies will bake a bit after they come out of the oven). Indent the warm cookies with the rounded bottom of a teaspoon. 
+                  If using jelly, fill each indent with some jelly. Top each with a chocolate kiss candy. "
                 />
                 <ListItemText
                   primaryTypographyProps={{
@@ -176,70 +218,7 @@ export default function Social() {
                     color: "#4F4F4F",
                     paddingBottom: 1
                   }}
-                  primary="6. Season the cavity of the turkey with salt and pepper. Stuff it with the quartered lemon, onion and apple and leftover herbs."
-                />
-                <ListItemText
-                  primaryTypographyProps={{
-                    fontSize: 16,
-                    fontWeight: 400,
-                    color: "#4F4F4F",
-                    paddingBottom: 1
-                  }}
-                  primary="7. Use your fingers to loosen and lift the skin above the breasts (on the top of the turkey) and smooth a few tablespoons of the herb butter underneath."
-                />
-                <ListItemText
-                  primaryTypographyProps={{
-                    fontSize: 16,
-                    fontWeight: 400,
-                    color: "#4F4F4F",
-                    paddingBottom: 1
-                  }}
-                  primary="8. Tuck the wings of the turkey underneath the turkey and set the turkey on a roasting rack inside a roasting pan*."
-                />
-                <ListItemText
-                  primaryTypographyProps={{
-                    fontSize: 16,
-                    fontWeight: 400,
-                    color: "#4F4F4F",
-                    paddingBottom: 1
-                  }}
-                  primary="9. Microwave the remaining herb butter mixture for 30 seconds (it doesn’t need to be completely melted--just really softened). Use a basting brush to brush the remaining herb butter all over the outside of the turkey, legs and wings."
-                />
-                 <ListItemText
-                  primaryTypographyProps={{
-                    fontSize: 16,
-                    fontWeight: 400,
-                    color: "#4F4F4F",
-                    paddingBottom: 1
-                  }}
-                  primary="10. Roast at 325 degrees F for about 13-15 minutes per pound, or until internal temperature (inserted on middle of thigh and breast) reaches about 165 degrees."
-                />
-                <ListItemText
-                  primaryTypographyProps={{
-                    fontSize: 16,
-                    fontWeight: 400,
-                    color: "#4F4F4F",
-                    paddingBottom: 1
-                  }}
-                  primary="11. (I remove the turkey from the oven once it reaches 160 degrees. Then, I tent it with foil, and let it rest on the counter. It will continue cooking under the foil, to reach 165 degrees F.)"
-                />
-                <ListItemText
-                  primaryTypographyProps={{
-                    fontSize: 16,
-                    fontWeight: 400,
-                    color: "#4F4F4F",
-                    paddingBottom: 1
-                  }}
-                  primary="12. ***Check the turkey about halfway through cooking, and once the skin gets golden brown, cover the top of the turkey with tinfoil, to protect the breast meat from overcooking. Alternately, you could start cooking the turkey with it tented in foil, then during the last hour or so of cooking you can take the foil off to let the turkey brown."
-                />
-                <ListItemText
-                  primaryTypographyProps={{
-                    fontSize: 16,
-                    fontWeight: 400,
-                    color: "#4F4F4F",
-                    paddingBottom: 1
-                  }}
-                  primary="13. Allow turkey to rest for 20-30 minutes before carving. https://tastesbetterfromscratch.com/how-to-carve-a-turkey/"
+                  primary="6. Allow the cookies to cool on the baking sheet for a few minutes and then transfer to a rack to cool completely."
                 />
               </List>
             </CardContent>

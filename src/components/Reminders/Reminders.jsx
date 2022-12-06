@@ -20,22 +20,18 @@ export default function Reminders() {
               primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F', textAlign: 'center', margin: 2 }}
               primary="Pets must be on a leash at all times"
             />
-            <Divider />
             <ListItemText
               primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F', textAlign: 'center', margin: 2 }}
               primary="Be considerate of your neighbors"
             />
-            <Divider />
             <ListItemText
               primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F', textAlign: 'center', margin: 2 }}
               primary="Each owner shall be responsible for collection and disposition of all fecal matter deposited by any pet maintained by such Co-owner"
             />
-            <Divider />
             <ListItemText
               primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F', textAlign: 'center', margin: 2 }}
               primary="No dog which barks and can be heard on any frequent or continuing basis shall be kept in any Unit or on the Common Elements"
             />
-            <Divider />
             <ListItemText
               primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F', textAlign: 'center', margin: 2 }}
               primary="In the event of any violation, the Association may assess fines for such violation in accordance with the By-laws & Rules / Regulations"
@@ -75,13 +71,14 @@ export default function Reminders() {
           </List>
         </Box>
         <Divider className='divider' style={{ width: '80%' }}>Trash Cans</Divider>
-        <Box className='mailbox' sx={{ width: '70%' }}>
+        <Box className='trash' sx={{ width: '50%' }}>
           <List>
             <ListItemText
               primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F' }}
               primary='Trash cans are to be properly stowed as per the PTV Bylaw below:'
             />
             <ListItemText
+              secondaryTypographyProps={{ margin: 2 }}
               secondary='No lot shall be used or maintained as a dumping ground for rubbish, trash, garbage or other waste.  The same shall not be kept except in sanitary containers properly concealed from public view.  Garbage cans shall not be left at the road more than 24 hours in any one week.'
             />
           </List>
