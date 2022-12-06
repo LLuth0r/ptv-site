@@ -46,7 +46,7 @@ export default function Social() {
               <Typography variant="h5" component="div">
                 Peanut Butter Blossoms
               </Typography>
-              <small><a class='link' href="https://www.foodnetwork.com/recipes/nancy-fuller/peanut-butter-blossoms-3415533">Original Link</a></small>
+              <small><a class='link' rel="noopener noreferrer" target="_blank" href="https://www.foodnetwork.com/recipes/nancy-fuller/peanut-butter-blossoms-3415533">Original Link</a></small>
               <List className="announcement2">
                 <Divider className="divider" style={{ width: "100%" }}>
                   Ingredients
