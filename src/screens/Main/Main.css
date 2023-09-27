@@ -2,7 +2,11 @@
 
 body {
 	background-color: #f0f2f3;
-	font-family: 'Arima', cursive;
+	/* font-family: 'Arima', cursive; */
+}
+
+body h1,h2,h3,span {
+    font-family: 'Arima', cursive;
 }
 
 .home-paper {

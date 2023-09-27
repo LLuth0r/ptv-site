@@ -81,6 +81,7 @@
 }
 
 .announcement2-img {
+    width: 40%;
     margin-right: 35px;
 }
 
@@ -98,7 +99,8 @@
 }
 
 .announcement2-src {
-    height: 800px;
+    height: auto;
+    max-width: 100%;
     box-shadow: -4px 8px 15px;
 }
 
@@ -160,6 +162,10 @@
 
     .announcement2-img {
         margin-right: 0;
+    }
+
+    .list-header {
+        font-size: 28px;
     }
 }
 
