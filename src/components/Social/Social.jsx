@@ -23,7 +23,7 @@ export default function Social() {
       <Box className="announcements">
         <div className="announcement1-div">
           <div className="announcement1-text">
-            <h3>2023 PTV HOA Meeting - October 9th @ 8pm</h3>
+            <h3>2023 PTV HOA Meeting - October 10th @ 6:30pm</h3>
             <p>
               Pine Trace Village is hosting its annual HOA meeting on October 10th, 2023 at 6:30pm at Avondale High School.  Registration begins at 6pm.  
             </p>
