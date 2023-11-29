@@ -13,10 +13,9 @@ export default function Main() {
   return (
     <div className='home'>
       <Paper className='home-paper' elevation={10}>
-        <img src='https://images.unsplash.com/photo-1574376407492-c3cf78231def?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80' 
+        <img src='https://images.unsplash.com/photo-1512389098783-66b81f86e199?q=80&w=2114&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' 
              className='hero' />
       </Paper>
-      <Social />
       <Reminders />
       <Paper className="contact" elevation={10}>
         <div className="contactform">
