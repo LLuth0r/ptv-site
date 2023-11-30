@@ -17,9 +17,6 @@ export default function Navigation() {
         </Link>
       </div>
       <div className="links">
-        <Link to="events" duration={500} smooth={true} offset={-125} className="nav-events">
-          Events
-        </Link>
         <Link to="reminders" duration={500} smooth={true} offset={-125} className="nav-reminders">
           Reminders
         </Link>
