@@ -16,7 +16,8 @@ export default function Reminders() {
         <h1>Reminders:</h1>
         <Divider className='divider' style={{ width: '80%' }}>Pets</Divider>
         <Box className='pets' sx={{ width: '80%', display: 'flex', justifyContent: 'center' }}>
-          <List className='pets-list'><ListItemText
+          <List className='pets-list'>
+            <ListItemText
               primaryTypographyProps={{ fontSize: 16, fontWeight: 400, color: '#4F4F4F', textAlign: 'center', margin: 2 }}
               primary="Pets must be on a leash at all times"
             />
