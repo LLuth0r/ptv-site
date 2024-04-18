@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 .navbar {
 	top: 0;
@@ -17,7 +18,7 @@
 .logo {
 	grid-row-start: 2;
 	width: auto;
-	font-family: 'Berkshire Swash', cursive;
+	font-family: 'Quicksand', sans-serif;
 	font-weight: 600;
 	font-size: 55px;
 	display: flex;
@@ -28,12 +29,11 @@
 
 .logo a {
 	text-decoration: none;
-	color: rgb(231, 0, 0);
 	align-self: center;
 }
 
 .logo a:hover, .links a:hover {
-	color: #660808;
+	color: #b89fc2;
 	cursor: pointer;
 }
 
@@ -43,7 +43,7 @@
 	justify-content: flex-end;
 	align-items: flex-end;
 	height: 75px;
-	font-family: 'Berkshire Swash', cursive;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 24px;
 	font-weight: 600;
 	margin-right: 30px;
@@ -56,7 +56,7 @@
 
 .links a {
 	text-decoration: none;
-	color: rgb(0, 146, 34);
+	/* color: rgb(0, 146, 34); */
 }
 
 .nav-date {
