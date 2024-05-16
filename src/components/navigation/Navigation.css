@@ -4,26 +4,41 @@
 
 .navbar {
 	top: 0;
-	height: 100px;
+	height: 80px;
 	width: 100%;
 	max-width: 1800px;
 	background-color: white;
 	display: grid;
-	grid-template-columns: 40% 60%;
-	grid-template-rows: 1fr 0.5fr;
+	grid-template-columns: 60% 40%;
+	grid-template-rows: 1fr .5fr;
 	position: fixed;
 	z-index: 3;
 }
 
+.nav-date {
+	grid-row-start: 1;
+	grid-column-start: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	align-self: flex-start;
+	margin-right: 3em;
+	font-size: 14px;
+}
+
+.updated {
+	color:rgb(82, 118, 173);
+	font-style: italic;
+}
+
 .logo {
+	grid-column-start: 1;
 	grid-row-start: 2;
 	width: auto;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 600;
-	font-size: 55px;
-	display: flex;
-	justify-content: flex-start;
-	align-self: flex-end;
+	font-size: 35px;
+	text-align: left;
 	margin-left: 1em;
 }
 
@@ -38,11 +53,11 @@
 }
 
 .links {
+	grid-row-start: 2;
 	grid-column-start: 2;
 	display: flex;
 	justify-content: flex-end;
-	align-items: flex-end;
-	height: 75px;
+	align-items: end;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 24px;
 	font-weight: 600;
@@ -50,7 +65,7 @@
 }
 
 .nav-events, .nav-reminders, .nav-contact {
-	font-size: 24px;
+	font-size: 18px;
 	padding: 0 10px;
 }
 
@@ -59,14 +74,7 @@
 	/* color: rgb(0, 146, 34); */
 }
 
-.nav-date {
-	grid-row-start: 1;
-	grid-column-start: 2;
-	display: flex;
-	justify-content: flex-end;
-	align-self: flex-start;
-	margin-right: 3em;
-}
+
 
 /* Media queries */
 @media all and (max-width: 600px) and (min-width: 300px) {
